@@ -17,7 +17,7 @@ def append_arr_as_row(file_name, arr_elem):
         csv_writer = writer(write_arr)
         csv_writer.writerow(arr_elem)
 
-for repo in g.search_repositories('stars:4000..4500 forks:>10 created:>2018-01-01', 'stars', 'desc'):
+for repo in g.search_repositories('stars:2500..4500 forks:>10 created:>2020-09-10', 'stars', 'desc'):
     repo_arr[0] = repo.name
     repo_arr[1] = repo.stargazers_count
     repo_arr[2] = repo.forks
@@ -29,7 +29,7 @@ for repo in g.search_repositories('stars:4000..4500 forks:>10 created:>2018-01-0
 t1 = time.time()
 
 print("=====================")
-print("Complete - " + str(t1-t0))
+print("Complete - " + str(round(t1-t0, 2)) + ' secs')
 print("=====================")
 
 
