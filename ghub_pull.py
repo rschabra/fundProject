@@ -10,7 +10,7 @@ repo_arr = [0]*7
 
 with open('github_list.csv', 'w', newline='') as write_arr:
         csv_writer = writer(write_arr)
-        csv_writer.writerow(['Name', 'Stars', 'Forks', 'Closed Pulls Count', 'Open Pulls Count', 'Number of Commits', 'Most Recent Commit'])
+        csv_writer.writerow(['Name', 'Stars', 'Forks', 'Closed Pulls Count', 'Open Pulls Count', 'Number of Commits', 'Days Since Last Commit'])
 
 def append_arr_as_row(file_name, arr_elem, newline=''):
     with open(file_name, 'a+', newline='') as write_arr:
@@ -22,7 +22,10 @@ def get_commit_date(repo):
     data = commits.get_page(0)
     last_commit = data[0].commit.author.date.date()
     today = datetime.datetime.now().date()
-    return (today - last_commit), commits.totalCount
+    elapsed_time = today - last_commit
+    commit_date = str(elapsed_time)
+    days = commit_date.split(' ')
+    return days[0], commits.totalCount
 
 for repo in g.search_repositories('stars:4450..4500 forks:>10 created:>2018-01-01', 'stars', 'desc'):
     repo_arr[0] = repo.name
