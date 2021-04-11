@@ -37,7 +37,6 @@ for repo in g.search_repositories('stars:4450..4500 forks:>10 created:>2018-01-0
     repo_arr[6] = get_commit_date(repo)[0]
 
 
-
     append_arr_as_row('github_list.csv', repo_arr)
     print(round(time.time() - t0))
 
