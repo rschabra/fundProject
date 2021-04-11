@@ -27,7 +27,7 @@ def get_commit_date(repo):
     days = commit_date.split(' ')
     return days[0], commits.totalCount
 
-for repo in g.search_repositories('stars:4450..4500 forks:>10 created:>2018-01-01', 'stars', 'desc'):
+for repo in g.search_repositories('stars:4200..4500 forks:>10 created:>2018-01-01', 'stars', 'desc'):
     repo_arr[0] = repo.name
     repo_arr[1] = repo.stargazers_count
     repo_arr[2] = repo.forks
