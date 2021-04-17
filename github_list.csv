@@ -1,88 +1,37 @@
-Name,Stars,Forks,Closed Pulls Count,Open Pulls Count,Number of Commits,Days Since Last Commit
-tiler,4495,257,2,5,10,577
-introtodeeplearning,4492,2076,27,3,408,79
-azul,4491,178,67,4,1799,0:00:00
-clusterfuzz,4487,431,1791,3,1758,1
-react-use-gesture,4486,160,79,4,1163,21
-webiny-js,4485,339,725,7,9862,2
-GTFOBins.github.io,4475,629,166,1,736,0:00:00
-wxappUnpacker,4473,2108,16,0,1,530
-KeyDB,4469,279,62,7,12427,20
-react-spectrum,4467,271,1162,60,2666,2
-FASTER,4459,371,239,6,623,2
-ml-visuals,4458,538,1,0,34,92
-docs,4457,4359,1835,28,9033,1
-React95,4455,123,153,4,585,20
-greenlet,4454,116,15,3,72,544
-jvm,4453,1146,8,0,104,14
-ferret,4451,250,337,3,743,2
-1024app-android,4447,910,0,1,6,1038
-MalwareSourceCode,4446,505,5,0,758,5
-sketch-code,4445,609,6,10,10,1117
-regular-investing-in-box,4442,1757,134,2,947,0:00:00
-Leaf,4438,1303,22,22,44,364
-tokenizers,4437,334,257,11,1451,6
-synthwave-vscode,4437,1126,36,1,112,26
-onnxruntime,4437,1001,5232,100,4615,0:00:00
-fuckcqcs,4436,817,34,0,110,989
-ShadowsocksR-Windows,4428,823,31,0,1317,0:00:00
-kraken,4427,280,199,10,857,89
-winXP,4424,235,34,9,32,387
-endlessh,4422,192,24,7,98,109
-jupytext,4420,283,340,1,2159,17
-berty,4413,163,2153,37,5289,0:00:00
-bfe,4410,735,517,8,793,2
-zh.javascript.info,4406,639,686,3,3417,10
-tensorspace,4403,389,41,0,687,721
-icecream,4402,82,18,4,197,5
-vscode-rainbow-fart,4400,241,9,5,64,269
-optuna,4394,492,1803,37,9687,2
-most-frequent-technology-english-words,4387,315,38,0,274,68
-owncast,4381,238,329,8,1060,0:00:00
-awesome-mlops,4380,604,49,0,199,0:00:00
-N_m3u8DL-CLI,4378,822,9,1,289,15
-ControlRoom,4375,230,65,3,258,26
-playwright-python,4365,363,312,7,312,6
-onemall,4362,1625,8,9,950,49
-God-Of-BigData,4355,1541,11,0,324,49
-vscode-browser-preview,4355,136,44,0,362,0:00:00
-SpringBlade,4349,936,3,2,43,18
-AutoSploit,4345,1103,103,3,281,377
-ProjectVisBug,4338,233,136,5,1195,58
-mace,4336,760,91,4,3139,5
-winapps,4336,189,16,29,113,142
-npkill,4308,114,33,2,411,31
-cli,4300,1174,823,5,10142,3
-polar-bookshelf,4297,241,53,2,9869,0:00:00
-nlp.js,4295,400,594,6,1936,11
-mmf,4293,650,394,18,847,3
-cloudmapper,4293,588,349,23,875,20
-ffuf,4291,510,158,15,174,1
-Reverse-Engineering,4291,350,0,0,207,1
-gpt-neo,4289,303,112,6,833,1
-awesome-java-books,4287,1113,1,1,34,376
-lighthouse-ci,4286,349,208,7,850,19
-QtScrcpy,4285,753,70,1,548,35
-pwnagotchi,4278,618,463,22,1631,28
-kbd-audio,4277,379,9,0,191,95
-the-platform,4275,102,56,8,174,142
-FloatingPanel,4273,334,210,5,737,43
-996ICU,4270,282,3,0,12,738
-PRNet,4265,867,11,5,69,906
-beautiful-react-hooks,4251,241,180,6,377,36
-CS-Xmind-Note,4249,1337,4,0,50,120
-metaflow,4248,356,180,35,197,9
-jukebox,4248,619,23,7,124,148
-v9porn,4243,966,15,0,126,18
-go-gin-example,4232,996,5,5,110,104
-Xray-core,4230,637,103,18,165,5
-tinygrad,4227,474,170,6,511,70
-Notepads,4224,268,400,21,950,0:00:00
-python_interview_question,4224,1441,40,0,113,365
-AidLearning-FrameWork,4222,632,1,0,678,6
-phoneinfoga,4220,1246,488,6,1370,2
-Sandboxie,4217,463,155,5,591,0:00:00
-metersphere,4216,941,257,9,6804,3
-luban-h5,4211,876,89,8,699,21
-tilt,4208,154,3573,6,3421,2
-beginner-javascript,4208,967,59,22,139,39
+Name,Stars,Forks,Closed Pulls Count,Open Pulls Count,Number of Commits,Days Since Last Commit,Number of Contributors,Number of Workflow Runs,Topics
+500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code,4497,1482,1,0,10,101,1,0,"['awesome', 'machine-learning', 'deep-learning', 'machine-learning-projects', 'deep-learning-project', 'computer-vision-project', 'nlp-projects', 'artificial-intelligence-projects']"
+ml-visuals,4497,540,1,0,34,98,1,0,"['machine-learning', 'deep-learning', 'natural-language-processing', 'artificial-intelligence', 'design']"
+MalwareSourceCode,4466,506,6,0,758,11,4,0,"['malware', 'malware-research', 'malware-development', 'malware-detection']"
+owncast,4433,242,342,5,1091,1,30,5238,"['video', 'streaming-video', 'livestream', 'hls', 'chat', 'rtmp', 'broadcasting']"
+awesome-mlops,4413,610,49,0,199,6,29,0,"['machine-learning', 'mlops', 'data-science', 'engineering', 'federated-learning', 'devops', 'software-engineering', 'ai', 'ml']"
+vscode-rainbow-fart,4405,242,9,5,64,275,9,0,"['vscode', 'vscode-rainbow-fart', 'rainbow-fart']"
+playwright-python,4384,366,318,5,316,1,17,1539,['playwright']
+ControlRoom,4383,229,65,3,258,32,30,0,"['swift', 'swiftui', 'macos', 'xcode', 'simulator', 'simctl']"
+winapps,4375,193,17,29,113,148,10,0,[]
+gpt-neo,4363,309,113,6,835,3,18,581,"['language-model', 'transformers', 'gpt', 'gpt-2', 'gpt-3']"
+Reverse-Engineering,4353,361,0,0,211,1,1,0,"['reverse-engineering', 'hacking', 'x86', 'x64', 'assembly', 'assembly-language', 'assembly-language-programming', 'cybersecurity', 'arm', 'c-plus-plus', 'assembly-x86-64', 'assembly-arm', 'cyber-security', 'cyber', 'cyber-threat-intelligence', 'hack', 'arm-assembly', 'c', 'reverse-engineering-tutorial', 'malware']"
+Xray-core,4332,653,104,19,165,11,14,631,"['xray', 'vless', 'tunnel', 'anticensorship', 'vmess', 'network', 'shadowsocks', 'trojan', 'proxy', 'xtls', 'socks5']"
+metersphere,4324,974,324,3,6886,2,31,2693,"['jmeter', 'testing', 'test-automation', 'api-testing', 'performance-testing', 'testcase', 'testlink', 'continuous-testing', 'postman', 'testlink-alternative', 'swagger']"
+jukebox,4278,628,23,7,124,154,7,0,"['paper', 'audio', 'music', 'pytorch', 'generative-model', 'vq-vae', 'transformer']"
+Sandboxie,4272,471,156,9,594,5,21,618,[]
+tinygrad,4240,479,170,6,511,76,43,1033,[]
+U-2-Net,4225,694,22,9,143,32,10,0,[]
+Pokedex,4218,451,15,0,206,2,8,137,"['android', 'kotlin', 'pokemon', 'pokedex', 'dagger2', 'mvvm', 'jetpack-android', 'motion', 'coroutines', 'skydoves']"
+CodeGuide,4213,875,0,6,203,3,1,0,"['java', 'javafx', 'spring', 'mybaits', 'asm', 'bytecode', 'javassist', 'aop', 'springboot', 'mysql', 'drools', 'ddd']"
+Background-Matting,4178,585,4,4,77,122,3,0,[]
+1loc,4175,315,382,32,836,0:00:00,60,0,"['javascript', 'tips-and-tricks', 'js-tips']"
+github-profile-readme-generator,4148,769,179,25,517,24,67,0,"['github', 'readme', 'generator', 'react', 'gatsby', 'markdown', 'hacktoberfest']"
+appsmith,4110,340,1979,50,5528,1,89,24335,"['low-code', 'admin-dashboard', 'app-builder', 'internal-tools', 'custom-internal', 'java', 'javascript', 'typescript', 'react', 'spring', 'admin-panels', 'workflows', 'widgets', 'crud']"
+algodeck,4102,361,8,0,128,165,4,0,"['algorithms', 'data-structures', 'array', 'bit-manipulation', 'complexity', 'dynamic-programming', 'graph', 'greedy-algorithms', 'hashtable', 'heap', 'linked-list', 'math', 'queue', 'recursion', 'sorting-algorithms', 'stack', 'tree', 'interview-practice', 'algorithm', 'java']"
+data-science-interviews,4092,827,114,2,316,17,64,0,"['data-science', 'machine-learning', 'interview-questions', 'data-science-interviews']"
+obs-mac-virtualcam,4086,147,60,0,194,124,18,208,[]
+athens,4078,233,548,3,608,0:00:00,48,2367,"['memex', 'knowledge-management', 'knowledge-graph', 'tools-for-thought', 'knowledge-base', 'notetaking']"
+charts.css,4070,75,11,2,151,116,1,8,"['css', 'html', 'css-framework', 'charts', 'chart', 'scss']"
+type-challenges,4059,195,142,1,348,8,43,5218,"['typescript', 'type', 'type-system', 'challenges']"
+tailscale,4051,211,730,16,2214,1,49,35347,"['wireguard', 'oauth', 'sso', '2fa', 'vpn']"
+super-expressive,4032,128,20,1,55,171,8,25,[]
+papercups,4029,251,408,13,780,1,41,1217,"['elixir', 'phoenix-framework', 'phoenix', 'react', 'intercom', 'livechat', 'docker', 'heroku', 'frontend', 'typescript', 'drift', 'javascript', 'slack', 'elixir-phoenix', 'zendesk', 'help-desk', 'customer-support', 'chat-widget', 'gdpr-compliant', 'mattermost']"
+posthog,4015,303,2563,23,2846,0:00:00,78,32627,"['analytics', 'python', 'docker', 'django', 'react', 'dashboards', 'heroku', 'postgres']"
+compose-jb,4012,181,153,3,454,1,32,0,"['kotlin', 'ui', 'multiplatform', 'desktop', 'swing', 'awt', 'gui', 'compose', 'android']"
+itlwm,4009,402,33,0,321,0:00:00,7,113,"['itlwm', 'kernel-extension', 'intel-wifi', 'macos', 'kext']"
+awesome-lowcode,4007,390,34,0,512,1,22,0,"['awsome', 'low-code', 'awesome', 'lowcode', 'nocode']"
