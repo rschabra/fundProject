@@ -2,7 +2,8 @@ import time
 from github import Github
 from csv import writer
 from array import *
-import datetimeeeimport calendar
+import datetime
+import calendar
 t0 =  time.time()
 
 counter = 0
