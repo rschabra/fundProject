@@ -55,7 +55,6 @@ for repo in g.search_repositories(query, 'stars', 'desc'):
     repo_arr[6] = get_commit_date(repo)[0]
     repo_arr[7] = repo.get_contributors().totalCount
     repo_arr[8] = repo.get_workflow_runs().totalCount
-    # repo_arr[9] = repo.get_topics()
     counter += 1
     print(counter)
     append_arr_as_row('github_list.csv', repo_arr)
