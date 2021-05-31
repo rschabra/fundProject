@@ -46,6 +46,7 @@ for repo in g.search_repositories(query, 'stars', 'desc'):
         sleep_time = reset_time - calendar.timegm(time.gmtime()) + 5
         print("Sleeping for: " + str(sleep_time) + ' seconds')
         time.sleep(sleep_time)
+    pydev_do_not_trace = True
     repo_arr[0] = repo.name
     repo_arr[1] = repo.stargazers_count
     repo_arr[2] = repo.forks
@@ -53,8 +54,16 @@ for repo in g.search_repositories(query, 'stars', 'desc'):
     repo_arr[4] = repo.get_pulls(state='open', sort='created', direction='asc').totalCount
     repo_arr[5] = get_commit_date(repo)[1]
     repo_arr[6] = get_commit_date(repo)[0]
-    repo_arr[7] = repo.get_contributors().totalCount
-    repo_arr[8] = repo.get_workflow_runs().totalCount
+    try:
+        repo_arr[7] = repo.get_contributors().totalCount
+    except:
+        repo_arr[7] = 1000
+        print("More than 1000 contributors")
+    try:
+        repo_arr[8] = repo.get_workflow_runs().totalCount
+    except:
+        repo_arr[8] = 1000
+        print("More than 1000 Workflow Runs")
     counter += 1
     print(counter)
     append_arr_as_row('github_list.csv', repo_arr)
