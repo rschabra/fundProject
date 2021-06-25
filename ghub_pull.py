@@ -8,7 +8,7 @@ t0 =  time.time()
 
 counter = 0
 g = Github('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')
-repo_arr = [0]*10
+repo_arr = [0]*11
 
 time.sleep(3)
 stars_lower = input("Lower Stars Range: ")
@@ -57,6 +57,16 @@ for repo in g.search_repositories(query, 'stars', 'desc'):
     repo_arr[8] = repo.get_workflow_runs().totalCount
     counter += 1
     print(counter)
+
+    # Star History Section #
+    # Options: 
+        # 1. Request the website and then download the CSV from there - use that CSV file to get the info we need
+        # 2. Run seladb/startrack-js locally using npm and get CSV info from there
+        # 3. (Best Option) - use starred_at attribute for Stargazer class to manually determine growth rate!
+    stargazer_list = repo.get_stargazers_with_dates()
+    for stargazer in stargazer_list:
+        print(stargazer.user)
+        print(stargazer.starred_at)
     append_arr_as_row('github_list.csv', repo_arr)
 
 t1 = time.time()
