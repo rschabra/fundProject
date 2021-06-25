@@ -21,7 +21,7 @@ def append_arr_as_row(file_name, arr_elem, newline=''):
 
 with open('reddit_list.csv', 'w', newline='') as write_arr:
     csv_writer = writer(write_arr)
-    csv_writer.writerow(['Name','Subreddit Exists?', 'Number of Posts in Programming Subreddit', 'Number of Subscribers', 'Number of Active Subscribers'])
+    csv_writer.writerow(['Name','Subreddit Exists?', 'Number of Posts in Programming Subreddit', 'Number of Subscribers'])
 
 with open('github_list.csv', 'r') as ghub:
     csv_reader = reader(ghub)
