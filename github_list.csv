@@ -1,4 +1,4 @@
-Name,Stars,Forks,Closed Pulls Count,Open Pulls Count,Number of Commits,Days Since Last Commit,Number of Contributors,Number of Workflow Runs
+Name,Stars,Forks,Closed Pulls Count,Open Pulls Count,Number of Commits,Days Since Last Commit,Number of Contributors,Number of Workflow Runs, Topics, SubTopics
 coax,165,14,11,0,1,107,1,179,0,0
 p2p-cdn-sdk-javascript,165,34,0,0,25,208,1,0,0,0
 lpvpn,165,11,6,0,38,49,4,54,0,0
